@@ -8,7 +8,7 @@ table {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
-    text-align: center;
+    /* text-align: center; */
     margin: 0;
     padding: 0;
     color: rgb(43, 43, 43);
@@ -32,4 +32,19 @@ td {
 
 .linhas-pares {
     background-color: #cfcfcf;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; (ctrl + ;) */
+}
+
+.filhos {
+    /* width: 300px; */
+    border: 1px solid black;
 }
